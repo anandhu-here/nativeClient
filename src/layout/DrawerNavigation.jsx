@@ -34,7 +34,7 @@ export default function DrawerNavigation() {
       <Drawer.Navigator drawerContent={props=><Sidebar {...props}/>} initialRouteName="Expenses">
         <Drawer.Screen name="Expenses" component={Expenses} />
         <Drawer.Screen name="Insights" component={Insights} />
-        <Drawer.Screen name="Lgout" component={Logout} />
+        <Drawer.Screen name="Logout" component={Logout} />
       </Drawer.Navigator>
   );
 }

@@ -42,9 +42,9 @@ function Signup() {
                 <Text style={{fontSize:18, color:"grey", textAlign:"left", width:'88%', marginVertical:10, fontWeight:'600'}} >SIGNUP</Text>
                 <Text style={{fontSize:15, color:"grey", textAlign:"left", width:'88%', marginVertical:1, fontWeight:'600'}} >Already have an account?</Text>
                 <TouchableOpacity style={{marginBottom:15, alignSelf:'flex-start', marginLeft:'6%'}} onPress={()=>{
-                    navigation.navigate('Signup')
+                    navigation.navigate('Login')
                 }} >
-                    <Text style={{color: theme_color, fontSize:17, fontWeight:"700"}} >Signup</Text>
+                    <Text style={{color: theme_color, fontSize:17, fontWeight:"700"}} >Login</Text>
                 </TouchableOpacity>
                 <TextInput
                     placeholder='Email'
