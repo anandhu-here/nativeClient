@@ -27,8 +27,10 @@ function Signup() {
                 setLoading(false);
             })
             .catch(error=>{
+                
                 dispatch({type:LOGIN_FAILED, payload:null});
                 setLoading(false)
+                alert(JSON.stringify(error.message))
             })
     }
 

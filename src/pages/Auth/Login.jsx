@@ -24,9 +24,9 @@ function Login() {
                 setLoading(false);
             })
             .catch(error=>{
-                console.log(error, "error");
                 dispatch({type:LOGIN_FAILED, payload:null});
                 setLoading(false)
+                alert(JSON.stringify(error.message))
             })
     }
 
